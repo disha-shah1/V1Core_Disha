@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smoke" duration-ms="81944" started-at="2021-06-17T10:03:03Z" finished-at="2021-06-17T10:04:25Z">
+    <groups>
+      <group name="SmartRetrieve">
+        <method signature="SmartRetrievePageTest.AdvSearch()[pri:2, instance:tests.SmartRetrievePageTest@49c43f4e]" name="AdvSearch" class="tests.SmartRetrievePageTest"/>
+        <method signature="SmartRetrievePageTest.Copysearch()[pri:4, instance:tests.SmartRetrievePageTest@49c43f4e]" name="Copysearch" class="tests.SmartRetrievePageTest"/>
+        <method signature="SmartRetrievePageTest.QuickSearch()[pri:1, instance:tests.SmartRetrievePageTest@49c43f4e]" name="QuickSearch" class="tests.SmartRetrievePageTest"/>
+        <method signature="SmartRetrievePageTest.SimpleSaveSearch()[pri:3, instance:tests.SmartRetrievePageTest@49c43f4e]" name="SimpleSaveSearch" class="tests.SmartRetrievePageTest"/>
+        <method signature="SmartRetrievePageTest.deletesearch()[pri:5, instance:tests.SmartRetrievePageTest@49c43f4e]" name="deletesearch" class="tests.SmartRetrievePageTest"/>
+        <method signature="SmartRetrievePageTest.updatesearch()[pri:4, instance:tests.SmartRetrievePageTest@49c43f4e]" name="updatesearch" class="tests.SmartRetrievePageTest"/>
+      </group> <!-- SmartRetrieve -->
+    </groups>
+    <test name="detail" duration-ms="33692" started-at="2021-06-17T10:03:03Z" finished-at="2021-06-17T10:03:37Z">
+      <class name="tests.DepositAutoITtest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.DepositAutoITtest@3439f68d]" name="setUp" is-config="true" duration-ms="3565" started-at="2021-06-17T10:03:03Z" finished-at="2021-06-17T10:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="depositDoc()[pri:1, instance:tests.DepositAutoITtest@3439f68d]" name="depositDoc" duration-ms="15055" started-at="2021-06-17T10:03:07Z" finished-at="2021-06-17T10:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositDoc -->
+        <test-method status="PASS" signature="depositMultiDoc()[pri:2, instance:tests.DepositAutoITtest@3439f68d]" name="depositMultiDoc" duration-ms="14969" started-at="2021-06-17T10:03:22Z" finished-at="2021-06-17T10:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositMultiDoc -->
+      </class> <!-- tests.DepositAutoITtest -->
+    </test> <!-- detail -->
+    <test name="detail1" duration-ms="47749" started-at="2021-06-17T10:03:37Z" finished-at="2021-06-17T10:04:25Z">
+      <class name="tests.SmartRetrievePageTest">
+        <test-method status="PASS" signature="initiateSute()[pri:0, instance:tests.SmartRetrievePageTest@49c43f4e]" name="initiateSute" is-config="true" duration-ms="21711" started-at="2021-06-17T10:02:41Z" finished-at="2021-06-17T10:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateSute -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SmartRetrievePageTest@49c43f4e]" name="setUp" is-config="true" duration-ms="5662" started-at="2021-06-17T10:03:37Z" finished-at="2021-06-17T10:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="QuickSearch()[pri:1, instance:tests.SmartRetrievePageTest@49c43f4e]" name="QuickSearch" duration-ms="6503" started-at="2021-06-17T10:03:43Z" finished-at="2021-06-17T10:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuickSearch -->
+        <test-method status="PASS" signature="AdvSearch()[pri:2, instance:tests.SmartRetrievePageTest@49c43f4e]" name="AdvSearch" duration-ms="8608" started-at="2021-06-17T10:03:49Z" finished-at="2021-06-17T10:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvSearch -->
+        <test-method status="PASS" signature="SimpleSaveSearch()[pri:3, instance:tests.SmartRetrievePageTest@49c43f4e]" name="SimpleSaveSearch" duration-ms="9727" started-at="2021-06-17T10:03:58Z" finished-at="2021-06-17T10:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimpleSaveSearch -->
+        <test-method status="PASS" signature="Copysearch()[pri:4, instance:tests.SmartRetrievePageTest@49c43f4e]" name="Copysearch" duration-ms="3746" started-at="2021-06-17T10:04:08Z" finished-at="2021-06-17T10:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Copysearch -->
+        <test-method status="PASS" signature="updatesearch()[pri:4, instance:tests.SmartRetrievePageTest@49c43f4e]" name="updatesearch" duration-ms="6982" started-at="2021-06-17T10:04:11Z" finished-at="2021-06-17T10:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatesearch -->
+        <test-method status="PASS" signature="deletesearch()[pri:5, instance:tests.SmartRetrievePageTest@49c43f4e]" name="deletesearch" duration-ms="6469" started-at="2021-06-17T10:04:18Z" finished-at="2021-06-17T10:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletesearch -->
+        <test-method status="PASS" signature="sendReportEmailAndCompleteTestSuite()[pri:0, instance:tests.SmartRetrievePageTest@49c43f4e]" name="sendReportEmailAndCompleteTestSuite" is-config="true" duration-ms="4843" started-at="2021-06-17T10:04:25Z" finished-at="2021-06-17T10:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReportEmailAndCompleteTestSuite -->
+      </class> <!-- tests.SmartRetrievePageTest -->
+    </test> <!-- detail1 -->
+  </suite> <!-- smoke -->
+</testng-results>

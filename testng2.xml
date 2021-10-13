@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke">
+
+	<listeners>
+		<listener class-name="report.TestListener" />
+	</listeners>
+	
+	
+	<test name="detail">
+		<classes>
+			<class name="tests.DepositAutoITtest"/> 
+		<!--<class name="tests.SmartRetrievePageTest"/> -->
+		</classes>
+			
+	</test>
+	
+<test name="detail1">
+		<classes>
+			<class name="tests.SmartRetrievePageTest"/>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke testSuite]">
+  <test thread-count="5" name="Smoke test(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="HomePage"/>
+        <include name="SmartDeposit"/>
+        <include name="SmartRetrieve"/>
+        <include name="SmartRetention"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SmartRetentionPageTest">
+        <methods>
+          <include name="initiateSute"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setAsociation"/>
+        </methods>
+      </class> <!-- tests.SmartRetentionPageTest -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [Smoke testSuite] -->

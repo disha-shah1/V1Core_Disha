@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [abc]">
+  <test thread-count="5" name="Smoke test2(failed)">
+    <groups>
+      <run>
+        <include name="HomePage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="initiateSute"/>
+          <include name="verifyDepositlinkclick"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- Smoke test2(failed) -->
+  <test thread-count="5" name="Smoke test3(failed)">
+    <groups>
+      <run>
+        <include name="SmartDeposit"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SmartDepositPageTest">
+        <methods>
+          <include name="initiateSute"/>
+          <include name="tearDown"/>
+          <include name="selectFile"/>
+          <include name="selectFilemultiFile"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.SmartDepositPageTest -->
+    </classes>
+  </test> <!-- Smoke test3(failed) -->
+  <test thread-count="5" name="Smoke test4(failed)">
+    <groups>
+      <run>
+        <include name="SmartRetrieve"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SmartRetrievePageTest">
+        <methods>
+          <include name="AdvSearch"/>
+          <include name="initiateSute"/>
+          <include name="tearDown"/>
+          <include name="QuickSearch"/>
+          <include name="setUp"/>
+          <include name="SimpleSaveSearch"/>
+          <include name="deletesearch"/>
+        </methods>
+      </class> <!-- tests.SmartRetrievePageTest -->
+    </classes>
+  </test> <!-- Smoke test4(failed) -->
+  <test thread-count="5" name="Smoke test5(failed)">
+    <groups>
+      <run>
+        <include name="SmartRetention"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SmartRetentionPageTest">
+        <methods>
+          <include name="DeleteRule"/>
+          <include name="initiateSute"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setAsociation"/>
+          <include name="CreateNewRule"/>
+        </methods>
+      </class> <!-- tests.SmartRetentionPageTest -->
+    </classes>
+  </test> <!-- Smoke test5(failed) -->
+</suite> <!-- Failed suite [abc] -->

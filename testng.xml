@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- <suite name="Smoke testSuite" >
+	<test name="Smoke test" > group-by-instances="true"
+	
+		<groups>
+			
+			<run>
+				<include name="login" />
+				<include name="HomePage" />
+				<include name="SmartDeposit" /> 
+			    <include name="SmartRetrieve" />
+				<include name="SmartRetention" /> 
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="tests.LoginPageTest" />
+			<class name="tests.HomePageTest" />
+		 	<class name="tests.SmartDepositPageTest" /> 
+			<class name="tests.SmartRetrievePageTest" />
+			<class name="tests.SmartRetentionPageTest" /> 
+		</classes>
+		
+	</test>
+</suite> -->
+
+<suite name="abc">
+	<test name="Smoke test1" > 
+    <groups>
+        <run>
+            <include name="login" />
+        </run>
+    </groups>
+        <classes>
+            <class name="tests.LoginPageTest" /> 
+        </classes>
+    </test>
+
+	<test name="Smoke test2" > 
+   	 <groups>
+        <run>
+            <include name="HomePage" />
+        </run>
+    </groups>
+        <classes>
+            <class name="tests.HomePageTest" /> 
+        </classes>
+    </test>
+    
+    <test name="Smoke test3" > 
+    <groups>
+        <run>
+            <include name="SmartDeposit" />
+        </run>
+    </groups>
+        <classes>
+            <class name="tests.SmartDepositPageTest" /> 
+        </classes>
+    </test>
+    
+    <test name="Smoke test4" > 
+    <groups>
+        <run>
+            <include name="SmartRetrieve" />
+        </run>
+    </groups>
+        <classes>
+            <class name="tests.SmartRetrievePageTest" /> 
+        </classes>
+    </test>
+    
+    <test name="Smoke test5" > 
+    <groups>
+        <run>
+            <include name="SmartRetention" />
+        </run>
+    </groups>
+        <classes>
+            <class name="tests.SmartRetentionPageTest" /> 
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke]">
+  <listeners>
+    <listener class-name="report.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="detail1(failed)">
+    <classes>
+      <class name="tests.SmartRetrievePageTest">
+        <methods>
+          <include name="initiateSute"/>
+          <include name="setUp"/>
+          <include name="updatesearch"/>
+          <include name="sendReportEmailAndCompleteTestSuite"/>
+        </methods>
+      </class> <!-- tests.SmartRetrievePageTest -->
+    </classes>
+  </test> <!-- detail1(failed) -->
+</suite> <!-- Failed suite [smoke] -->
